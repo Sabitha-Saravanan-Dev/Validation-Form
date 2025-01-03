@@ -1,0 +1,56 @@
+body {
+    font-family: "Inconsolata", serif;
+    text-align: center;
+    background-image:url(bg\ photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.form-container {
+
+    padding: 20px;
+    margin: auto;
+    width: 350px;
+    border-radius: 10px;
+   
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+.form-container label {
+    font-weight:bolder;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size:large;
+}
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border:solid;
+    border-radius: 5px;
+  
+}
+.form-container button {
+    width:100%;
+    margin-left:4%;
+    padding:10px;
+    color:black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:medium;
+
+}
+.form-container button {
+    background-color:darkgoldenrod;
+   
+}
+.error {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
